@@ -24,3 +24,5 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03:lge \
     vendor/lge/mako/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt:lge \
 
+PRODUCT_COPY_FILES += \
+    vendor/lge/mako/proprietary/libWVphoneAPI.so:vendor/lib/libWVphoneAPI.so:lge \
